@@ -1,0 +1,122 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #2E2C3E;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+.whiteText, .deskName {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#header{
+    background-color: #394047;
+    position: relative;
+    width: 1440px;
+    box-shadow: 50px;
+}
+
+.logo{
+    display: inline-block;
+    margin: 10px 20% 10px 10px;
+}
+
+#navBar{
+    display: inline-block;
+    position: absolute;
+    padding: 25px;
+}
+
+#navBar, p{
+    display: inline-block;
+    margin: 0px 10px;
+    color: #618DB9;
+    font-size: 18px;
+}
+
+#userAndCart{
+    display: inline-block;
+    margin: 10px 10px 10px 55%;
+}
+
+#body{
+    margin: 0px 0px 5%;
+}
+
+#bannerPic{
+    width: 1360px;
+    height: auto;
+}
+
+.viewMore, .headings{
+    display: inline-block;
+    margin: 0px 0px 5% 45%;
+    color: #618DB9;
+}
+
+#topSell, #topSwitch, #topKey, #deskMats{
+    margin: 5% 10%;
+}
+
+.pictureIndex{
+    display: table-cell;
+}
+
+.viewMore{
+    text-decoration: underline;
+    margin: 0px 0% 0px 20%;
+}
+
+.deskName{
+    text-decoration: underline;
+    margin: 2% 0px 0px 5%;
+}
+
+#deskMats p{
+    margin: 0px 0px 10% 42%;
+}
+
+#deskMats img{
+    margin: 0px 0px 0px 3%;
+}
+
+#deskMats .viewMore{
+    border: 1px solid #618DB9;
+    padding: 5px;
+    margin: 0px 0px 10% 47%;
+    background-color: #323435;
+}
+
+#footer{
+    background-color: #394047;
+    position: relative;
+    width: 1400px;
+    padding: 20px;
+}
+
+#copyRight {
+    position: absolute;
+    margin: 0px 5%;
+    padding: 30px 10px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#social{
+    display: inline-block;
+    margin: 10px 10px 10px 50%;
+}
+
+#socialGroup{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.socialIcons{
+    margin: 5px 5px;
+}
