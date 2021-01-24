@@ -91,26 +91,143 @@ margin-top: 120px;
 
 
 
-
+h1{
+	margin-bottom: 80px;
+}
 
 .signin-btn{
 	width: 755px;
-	height: 38px;
+	height: 50px;
 
 	background: #618DB9;
 	border-radius: 5px;
 	border: none;
+	margin-top: 75px;
+	margin-bottom: 25px;
 
 }
 
 .signup-btn{
 	width: 755px;
-	height: 38px;
+	height: 50px;
 
 	background: #FF8125;
 	border-radius: 5px;
 	border: none;
 	align-items: center;
 	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 120px;
 
+
+}
+
+.input1{
+	height: 30px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #171717;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.form1{
+	margin: auto 190px; 
+}
+
+.or{
+	text-align: center;
+	font-family: Font Awesome 5 Brands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 24px;
+	
+
+	color: #171717;
+}
+
+.signin-btn, .signup-btn{
+	font-family: Font Awesome 5 Brands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+form  label{
+	font-family: Font Awesome 5 Brands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 24px;
+	text-align: center;
+	
+	
+	color: #171717;
+}
+
+
+.footer {
+	width: auto;
+	height: 236px;
+	left: 0px;
+	top: 3869px;
+
+	background: #171717;
+}
+
+.footer .wrapper{
+	display: flex;
+}
+
+.footer-left{
+	width: 50%;
+	height: 236px;
+	padding-top: 50px;
+}
+
+.social-icon{
+	margin-right: 85px;
+}
+
+
+.footer-right{
+	width: 50%;
+	height: 236px;
+	padding-top: 50px;
+}
+
+.footer-right p:nth-last-of-type(3){
+	font-family: Saira;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+
+	color: #FF8125;
+}
+.footer-right p{
+	font-family: Saira;
+	font-style: normal;
+	font-weight: thin;
+	font-size: 18px;
+	line-height: 28px;
+
+	color: #FFFFFF;
+}
+
+.copyright{
+	font-family: Saira;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration-line: underline;
+	text-align: center;
+	color: #E4E4E4;
+	margin-top: -40px;
 }
