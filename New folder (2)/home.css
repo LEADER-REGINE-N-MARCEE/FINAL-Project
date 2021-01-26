@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -49,7 +53,7 @@ nav ul{
 
 
 
-.nav-item2 li a{
+.nav-item2 li a, .buttonClick{
 	margin-right: 48px;
 	font-family: 'Saira', sans-serif;
 	font-style: normal;
@@ -66,7 +70,11 @@ nav ul{
 	margin-right: -40px;
 }
 
-
+.buttonClick{
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+}
 
 .section1 {
 
